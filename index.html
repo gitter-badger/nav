@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en"> 
+<!-- Code Info
+   _____          _ ________   __   _____ _             _ _       
+  / ____|        | |  ____\ \ / /  / ____| |           | (_)      
+ | |     ___   __| | |__   \ V /  | (___ | |_ _   _  __| |_  ___  
+ | |    / _ \ / _` |  __|   > <    \___ \| __| | | |/ _` | |/ _ \ 
+ | |___| (_) | (_| | |____ / . \   ____) | |_| |_| | (_| | | (_) |
+  \_____\___/ \__,_|______/_/ \_\ |_____/ \__|\__,_|\__,_|_|\___/ 
+          
+    Built by Jimmy J., 2016. 
+-->
+
+<head>
+	<title>CodEX.NAV</title>
+    <link rel="stylesheet" href="./md/material.min.css">
+    <script src="./md/material.min.js"></script>
+	<link type="text/css" href="./css/pages.css" media="all" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.2/material.indigo-yellow.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+        html {
+            height: 100%;
+        }
+        a {
+            color: #4958C0;
+        }
+    </style>
+</head>
+<div id="wrapper">
+
+    <body oncontextmenu="return false">
+        <script language="javascript">
+            document.onmousedown = disableclick;
+            status = "Sorry, do not right click";
+
+            function disableclick(event) {
+                if (event.button == 2) {
+                    alert(status);
+                    return false;
+                }
+            }
+        </script>
+        <br>
+        <br>
+	<div align="center">
+        <h1>CodEX NAV<font size="2">Codename: [project-nav]</font></h1>
+            <!-- Search Section
+            <form action="function/search.php" method="post">
+                <input type="text" name="search" value="Search Baidu" onFocus="this.select()">
+                <input type="submit" Value="Search Baidu">
+            </form>
+			-->
+            <form action="function/search.php" method="post">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="text" id="search" name="search">
+                    <label class="mdl-textfield__label" for="search">Baidu...</label>
+                </div>
+				<button class="mdl-button mdl-js-button mdl-js-ripple-effect" type="submit">
+						Search
+					</button>
+            </form>
+
+            <div class="terminal">
+                <div class="header"></div>
+                <div class="shell">
+                    <p><span class="prompt">$</span>Daily Recommend: <span class="path"><a href="http://culturecrash.tk">http://culturecrash.tk</a></span>
+                    </p>
+                </div>
+            </div>
+            </li>
+
+            <!-- End of tutorial section -->
+
+            <script async="" src="./css/analytics.js"></script>
+            <script src="./css/jquery.js"></script>
+            <script>
+                window.slides = {
+                    "bower": "Bower"
+                }
+            </script>
+            <script src="./css/application.js"></script>
+        </div>
+</div>
+    </body>
+	
+    <footer class="page-footer">
+        <div align="center" id="devnote">
+            <p>Coded by <a href="http://codex.studio">CodEX Studio</a><br>
+            Last updated and Coded: 2016-03-12 EST9:00<br>
+            Last edited by Meeat. Ver. 0.0.2</p>
+        </div>
+	</footer>
+
+
+</body>
+
+</html>
